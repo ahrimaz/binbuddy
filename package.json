@@ -1,0 +1,40 @@
+{
+  "name": "bin-buddy",
+  "version": "1.0.0",
+  "description": "to help with bin nums",
+  "main": "app.js",
+  "dependencies": {
+    "clipboardy": "^4.0.0",
+    "copy-paste": "^1.5.3",
+    "cross-spawn": "^7.0.3",
+    "execa": "^8.0.1",
+    "fs": "^0.0.1-security",
+    "get-stream": "^8.0.1",
+    "human-signals": "^5.0.0",
+    "is-docker": "^3.0.0",
+    "is-inside-container": "^1.0.0",
+    "is-stream": "^3.0.0",
+    "is-wsl": "^3.1.0",
+    "is64bit": "^2.0.0",
+    "isexe": "^2.0.0",
+    "merge-stream": "^2.0.0",
+    "mimic-fn": "^4.0.0",
+    "npm-run-path": "^5.2.0",
+    "onetime": "^6.0.0",
+    "path-key": "^3.1.1",
+    "readline": "^1.3.0",
+    "shebang-command": "^2.0.0",
+    "shebang-regex": "^3.0.0",
+    "signal-exit": "^4.1.0",
+    "strip-final-newline": "^3.0.0",
+    "system-architecture": "^0.1.0",
+    "which": "^2.0.2"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "no"
+  },
+  "bin": "app.js",
+  "author": "eric s",
+  "license": "ISC"
+}
