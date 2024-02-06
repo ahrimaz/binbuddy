@@ -41,7 +41,7 @@ function extractDigits(directoryPath) {
 
   const uniqueDigits = Array.from(uniqueDigitsSet);
   if (uniqueDigits.length > 0) {
-    const result = '\x1b[32m' + uniqueDigits.join(',') + '\x1b[0m'; // Green text
+    const result = uniqueDigits.join(','); // Green text
     console.log('\x1b[33mResult copied to clipboard for copy paste.\x1b[0m'); // Yellow text
     console.log(result);
 
