@@ -23,7 +23,7 @@ function extractDigits(directoryPath) {
   }
 
   const files = fs.readdirSync(directoryPath);
-  const regex = /--(\d{4})|__(\d{4})/;
+  const regex = /--(\d{1,4})|__(\d{1,4})/
 
   const uniqueDigitsSet = new Set();
 
